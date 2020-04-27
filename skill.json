@@ -1,0 +1,107 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "never have i ever",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "I don't know how to play this game",
+                        "I don't know how to use this application",
+                        "I need help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "question",
+                    "slots": [],
+                    "samples": [
+                        "ready for the next question",
+                        "whats the next question",
+                        "keep going",
+                        "next",
+                        "ask another question",
+                        "continue",
+                        "ask a question"
+                    ]
+                },
+                {
+                    "name": "rules",
+                    "slots": [],
+                    "samples": [
+                        "rules",
+                        "let's hear the rules",
+                        "read the rules",
+                        "what are the rules",
+                        "read me the rules"
+                    ]
+                },
+                {
+                    "name": "stop",
+                    "slots": [],
+                    "samples": [
+                        "I don't want to play anymore",
+                        "end the game",
+                        "stop playing",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "rounds",
+                    "slots": [],
+                    "samples": [
+                        "play with ten rounds",
+                        "rounds",
+                        "play with rounds",
+                        "start a round game",
+                        "ten rounds"
+                    ]
+                },
+                {
+                    "name": "unlimited",
+                    "slots": [],
+                    "samples": [
+                        "until the first person is out",
+                        "loop",
+                        "play first person out",
+                        "unlimited",
+                        "unlimited rounds",
+                        "no rounds"
+                    ]
+                },
+                {
+                    "name": "play",
+                    "slots": [],
+                    "samples": [
+                        "start",
+                        "play the game",
+                        "ready to play",
+                        "play never have I ever",
+                        "start the game"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
